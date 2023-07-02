@@ -1,6 +1,6 @@
 # Image Segmentation Tensorflow
 
-
+In this repository, we review some concepts concerning Image segmentation and python implementation using Tensorflow. 
 
 ## Table of content
 
@@ -15,10 +15,16 @@
             - [Encoder](#encoder)
             - [Decoder](#decoder)
                 - [FCN-32](#fcn-32)
+                - [FCN-16](#fcn-16)
+                - [FCN-8](#fcn-8)
+            - [Upsampling](#upsampling)
         - [well-known networks based on FCN](#well-known-networks-based-on-fcn)
             - [SegNet](#segnet)
             - [UNet](#unet)
             - [Mask R-CNN](#mask-r-cnn)
+- [Code Implementation (Tensorflow)](#code-implementation-tensorflow)
+    - [Dataset](#dataset)
+    - [Getting Started](#getting-started)
 
 
 ## Image Segmentation
@@ -148,3 +154,18 @@ The high level architecture for an image segmentation algorithm is an encoder-de
             <img width="70%" src="./files/Mask-R-CNN.png"/>
 
             Mask R-CNN is another popular architecture for instance segmentation. It builds off of the faster R-CNN. Mask R-CNN adds an additional branch after the feature extraction and faster R-CNN to perform upsampling to produce pixel-wise segmentation mosques of the image. It turns the object detection model into an image segmentation model.
+
+
+## Code Implementation (Tensorflow)
+    
+- ### Dataset
+    You will train the model on a [custom dataset](https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing) prepared by [divamgupta](https://github.com/divamgupta/image-segmentation-keras). This contains video frames from a moving vehicle and is a subsample of the [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) dataset.
+
+- ### Getting Started
+    To get started with this project, follow these steps:
+
+    1. Click this link to open the notebook in Colab: https://colab.research.google.com/github/barzansaeedpour/image-segmentation-tensorflow/blob/main/code.ipynb
+
+    2. The instruction and explaination of the code is mentioned in the notebook
+
+
