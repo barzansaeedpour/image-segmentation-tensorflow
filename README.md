@@ -164,7 +164,7 @@ The high level architecture for an image segmentation algorithm is an encoder-de
 - ### Getting Started
     To get started with this project, follow these steps:
 
-    1. Click this link to open the notebook in Colab: https://colab.research.google.com/github/barzansaeedpour/image-segmentation-tensorflow/blob/main/code.ipynb
+    1. Click this link to open the notebook in Colab: https://colab.research.google.com/github/barzansaeedpour/image-segmentation-tensorflow/blob/main/Image-segmentation-VGG16-FCN8-CamVid.ipynb
 
     2. The instruction and explaination of the code is mentioned in the notebook
 
