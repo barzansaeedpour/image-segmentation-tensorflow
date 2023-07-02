@@ -126,9 +126,11 @@ The high level architecture for an image segmentation algorithm is an encoder-de
         - ##### Upsampling
             - Upsampling is increasing height and width of the feature map.
             - Two types of layers used in Tensorflow:
-                - Simple Scaling - UpSampling2D 
+                - Simple Scaling - UpSampling2D
+                    - Nearst: copies value from nearset pixel 
+                    - Bilinear: linear interpolation from nearby pixels 
                 - Transposed Convolutional(Deconvolution) - Conv2DTranspose 
-            
+                    <img width="70%" src="./files/transposed-convolutional.png"/>
     - #### well-known networks based on FCN:
         - ##### SegNet
 
