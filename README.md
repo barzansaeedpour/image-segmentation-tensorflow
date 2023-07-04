@@ -161,6 +161,21 @@ The high level architecture for an image segmentation algorithm is an encoder-de
 - ### Dataset
     You will train the model on a [custom dataset](https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing) prepared by [divamgupta](https://github.com/divamgupta/image-segmentation-keras). This contains video frames from a moving vehicle and is a subsample of the [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) dataset.
 
+    classes: 
+    | Value  | Class Name    |
+    | -------| -------------|
+    | 0      | sky |
+    | 1      | building      |
+    | 2      | column/pole      |
+    | 3      | road |
+    | 4      | side walk     |
+    | 5      | vegetation      |
+    | 6      | traffic light |
+    | 7      | fence      |
+    | 8      | vehicle     |
+    | 9      | pedestrian |
+    | 10      | byciclist      |
+    | 11      | void      |
 - ### Getting Started
     To get started with this project, follow these steps:
 
