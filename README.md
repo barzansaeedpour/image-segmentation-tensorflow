@@ -1,6 +1,6 @@
 # Image Segmentation Tensorflow
 
-In this repository, we review some concepts concerning Image segmentation and python implementation using Tensorflow. 
+In this repository, we thoroughly examine the concepts of Image Segmentation and provide a comprehensive Python implementation using the Tensorflow framework.
 
 ## Table of content
 
